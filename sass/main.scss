@@ -1,0 +1,35 @@
+/*
+Project Name :
+Developed By :
+Version      :
+*/
+/*start of reset*/
+@import "base/_reset.scss";
+/*end of reset*/
+/*
+    BASE : mixins, base,variables
+*/
+@import "base/_base.scss";
+@import "base/_mixins.scss";
+@import "base/_variable.scss";
+
+/*
+    layout: footer, header,nav,left,right,center
+*/
+@import "layout/_nav.scss";
+@import "layout/_banner.scss";
+@import "layout/_right.scss";
+@import "layout/_left.scss";
+@import "layout/_header.scss";
+@import "layout/_footer.scss";
+@import "layout/_center.scss";
+
+/*
+    modules:blocks,buttoms,components,form,section,typography
+*/
+@import "modules/_blocks.scss";
+@import "modules/_buttons.scss";
+@import "modules/_components.scss";
+@import "modules/_forms.scss";
+@import "modules/_sections.scss";
+@import "modules/_typography.scss";
